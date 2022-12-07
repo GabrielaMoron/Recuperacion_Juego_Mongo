@@ -1,19 +1,22 @@
-body {
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/fondoMongo.png);
+
+nav{
+    display: flex;
+    background-color: rgb(253 254 255);
+    box-shadow: 11px -7px 22px 3px rgb(0 15 56);
+    padding: 1.5rem;
+}
+
+nav img{
+    width: 14%;
+    display: flex;
+    margin: auto;
 }
 
 
-button{border: none;}
-
- img{
-  
-    width: 20%;
+img {
+    width: 9%;
     display: flex;
-    margin: 3rem auto -1rem;
+    margin: 2rem auto -1rem;
 }
 .wrap {
     height: 100%;
@@ -91,7 +94,7 @@ button{border: none;}
 
 .titulo {
     text-align: center;
-    color: #01f663;
+    color: #000502;
     margin-top: 4rem;
     font-family: 'Merriweather', serif;
 
