@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    margin:0%;
+    overflow: none;
+}
+body{margin:0%;
+    overflow: none;
+    display: flex;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 15px 9px 24px 1px rgb(77 134 111);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: -7rem;
+    align-items: flex-start;
+    width: 90rem;
+    height: 6rem;
+
+}
+
+nav img{
+    width: 13%;
+    display: flex;
+    margin-left: 34rem;
+
+}
+
+section{
+    width: 65em;
+    height: 30em;
+    background-color: #fff;
+    border:none;
+    color: #000;
+    padding: 7px;
+}
+h2{
+    border-bottom: 4px solid #000;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #000;
+    font-size: 3rem;
+    margin-top: 9rem;
+    font-family: 'Merriweather', serif;
+}
+#palabra{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+a{
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(19, 165, 109);
+}
+
+a:hover{
+    color:rgb(13, 127, 74);
+}
+
+.letra {
+    height: 57px;
+    width: 53px;
+    border: 3px solid rgb(69 243 159);
+    text-align: center;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 29px;
+    margin-top: 5rem;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rem;
+}
+
+.button {
+    width: 173px;
+    height: 67px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(250, 249, 249);
+  background-color: rgb(69 243 159);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #f2f3f3;
+  box-shadow: 0px 15px 20px rgba(27, 231, 149, 0.4);
+  color: rgb(5, 0, 0);
+  transform: translateY(-7px);
+}
+.pintar{
+    background-color: #02bf67;;
+}
+.pintarError{
+    background-color: rgb(243, 97, 97);
+}
+h3{
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: centera;
+}
+h3 span{
+    font-style: italic;
+    color: #0abb39;
+}
+.cont{       padding-bottom: 20rem;
+    margin-top: -25rem;
+    margin-left: -8rem;}

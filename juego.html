@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/juego.css">
+ 
+    <title>ADIVINAR</title>
+    
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Volver</a>
+        <img src="img/logo.png" alt="">
+    </nav>
+    <section >
+       
+        <h2>¡ADIVINA LA PALABRA!</h2>
+        <div id="palabra">
+            <div class="letra pintar">U</div>
+            <div class="letra">S</div>
+            <div class="letra">E</div>
+            <div class="letra">D</div>
+            <div class="letra">A</div>
+            <div class="letra">T</div>
+            <div class="letra">A</div>
+            <div class="letra">B</div>
+            <div class="letra">A</div>
+            <div class="letra">S</div>
+            <div class="letra">E</div>
+            <div class="letra">N</div>
+            <div class="letra">A</div>
+            <div class="letra">M</div>
+            <div class="letra">E</div>
+        </div>
+        <div class="cont">
+        <h3> PISTA: <span id="ayuda"> Creacion de base de datos</span> </h3>
+        <h3>INTENTOS RESTANTES : <span id="intentos">5</span></h3>
+        <h3>LETRAS: <span id="letrasIngresadas"></span></h3>
+    </div>
+
+       
+        <div class="wrap">
+            <button class="button" onclick="cargarNuevaPalabra()">Nueva palabra</button>
+          </div>
+    </section>
+    <script src="/js/juego.js"></script>
+</body>
+</html>
