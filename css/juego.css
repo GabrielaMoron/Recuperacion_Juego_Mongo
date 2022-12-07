@@ -2,10 +2,13 @@
 *{
     box-sizing: border-box;
     font-family: 'Open Sans';
+    margin:0%;
+    overflow: none;
 }
-body{
+body{margin:0%;
+    overflow: none;
     display: flex;
-    background: #1d2837;
+    background: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -36,16 +39,16 @@ nav img{
 section{
     width: 65em;
     height: 30em;
-    background-color: #1d2837;
+    background-color: #fff;
     border:none;
-    color: #fff;
+    color: #000;
     padding: 7px;
 }
 h2{
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #000;
     text-align: center;
     padding-bottom: 5px;
-    color: #fdfdfd;
+    color: #000;
     font-size: 3rem;
     margin-top: 9rem;
     font-family: 'Merriweather', serif;
@@ -68,12 +71,44 @@ a:hover{
 .letra {
     height: 57px;
     width: 53px;
-    border: 3px solid #45f39f;
+    border: 3px solid rgb(69 243 159);
     text-align: center;
     margin: 4px;
     font-weight: 600;
     font-size: 29px;
     margin-top: 5rem;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rem;
+}
+
+.button {
+    width: 173px;
+    height: 67px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(250, 249, 249);
+  background-color: rgb(69 243 159);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #f2f3f3;
+  box-shadow: 0px 15px 20px rgba(27, 231, 149, 0.4);
+  color: rgb(5, 0, 0);
+  transform: translateY(-7px);
 }
 .pintar{
     background-color: #02bf67;;
@@ -89,26 +124,8 @@ h3{
 }
 h3 span{
     font-style: italic;
-    color: #4bfd7a;
+    color: #0abb39;
 }
 .cont{       padding-bottom: 20rem;
     margin-top: -25rem;
     margin-left: -8rem;}
-button{
-    display: block;
-    width: fit-content;
-    margin: auto;
-    background-color: transparent;
-    border: 2px solid #02bfa4;
-    border-radius: 20px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px;
-    margin-top: 30px;
-    cursor: pointer;
-    transition: .5s;
-}
-button:hover{
-    background-color: #02bfa4;
-}

@@ -1,0 +1,64 @@
+[
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿Como creamos una base de datos en mongo?",
+        "respuesta": "USE NAMEDATABASE",
+        "incorrecta1": "NAMEDATABASE CREATE",
+        "incorrecta2": "NAMEDATABASE_USE",
+        "incorrecta3": "CREATE_USE NAMEDATABASE",
+        "imagen": "https://th.bing.com/th/id/R.7e14f52ff3a81ccf8d8d88ce38462d79?rik=v8N76pnG2%2boFSA&pid=ImgRaw&r=0",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿Como creamos una coleccion en mongo?",
+        "respuesta": "db.createCollection(namecollection)",
+        "incorrecta1": "db_createCollection_(namecollection)",
+        "incorrecta2": "dbcreateCollection(namecollection)",
+        "incorrecta3": "db.createCollection.namecollection",
+        "imagen": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2014/07/51425-coleccionismo-datos.jpg?itok=7u61cXn8",
+        "objectFit": "cover"
+    } ,
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿Como podemos ver todos los documentos insertados?",
+       
+       
+        "respuesta": "db.namecollection.find()",
+        "incorrecta1": "db_namecollection_find()",
+        "incorrecta2": "namecollection.db.find()", 
+        "incorrecta3": "db.namecollection__find()",
+        "imagen": "https://th.bing.com/th/id/R.a4fe0821e2b22a80077d2c9dc05d0fca?rik=CERXsQd%2bDZw5Qg&pid=ImgRaw&r=0&sres=1&sresct=1",
+        "objectFit": "cover"
+    } ,
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿Como podemos consultar los documentos?",
+        "incorrecta1": "namecollection.db.find().pretty()",
+        "incorrecta2": "db namecollection find() pretty()",
+        "respuesta": "db.namecollection.find().pretty()",
+        "incorrecta3": "db_find.namecollection().pretty()",
+        "imagen": "https://www.bing.com/images/search?view=detailV2&ccid=oPDbLb8l&id=0D7ED006A4B4D66344BCA1CB1543463159BF2894&thid=OIP.oPDbLb8l8E6fo_ztVNKH1QAAAA&mediaurl=https%3a%2f%2fsites.google.com%2fsite%2fdocumentoselectronicoslo%2f_%2frsrc%2f1468754362169%2fhome%2fdocuments.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a0f0db2dbf25f04e9fa3fced54d287d5%3frik%3dlCi%252fWTFGQxXLoQ%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d800%26srw%3d800&exph=256&expw=256&q=documentos+imagenes&simid=608021813207650458&FORM=IRPRST&ck=E209C6EA3A8DA6AE6DB1BCB33B7CE087&selectedIndex=18",
+        "objectFit": "cover"
+    } ,
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿como ordenar los registros?",
+        "respuesta": "db.namecollection.find().sort({key:1})",
+        "incorrecta1": "db.namecollection.find().put({key:1})",
+        "incorrecta2": "db namecollection find() sort({key:1})",
+        "incorrecta3": "namecollection.find().sort()",
+        "imagen": "https://th.bing.com/th/id/R.94e7362a8a47dd359c085e0efa4880d5?rik=R18R%2baCdEYRsNQ&pid=ImgRaw&r=0",
+        "objectFit": "cover"
+    } ,
+    {
+        "categoria": "MONGO DB",
+        "pregunta": "¿Como borramos la base de datos?",
+        "incorrecta1": "db.drop.Database()",
+        "incorrecta2": "db drop.Database()",
+        "respuesta": "db.dropDatabase()",
+        "incorrecta3": "drop.Database.namedatabase()",
+        "imagen": "https://th.bing.com/th/id/R.4114da3b2da29f5176c7d58a453855ef?rik=h8KrXJFSV04y1g&riu=http%3a%2f%2f1.bp.blogspot.com%2f-MnwIyD0djMM%2fVYCyO_CVwdI%2fAAAAAAAAAD4%2fw--b1Yxb-9g%2fs1600%2fPreguntas.jpg&ehk=86qbQ54Qp8qEmk8AnGeo%2ft7CE4n4%2f2zV0rDQ7mM4W7A%3d&risl=&pid=ImgRaw&r=0",
+        "objectFit": "cover"
+    } 
+]
